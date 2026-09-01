@@ -4,6 +4,8 @@ An open-source digital signal processing (DSP) tool written in Python for demodu
 
 SCA subcarriers are analog subcarriers (typically centered at 67 kHz or 92 kHz) modulated onto standard FM radio broadcasts, historically used for specialized services such as reading services for the blind, background music, or data transmissions.
 
+For more information about GNU Radio and a full explanation of FM Broadcast signals, please see this very informative online article "FM Reception with the GNU Radio Companion" By John E. Post https://www.nutsvolts.com/magazine/article/fm-reception-with-the-gnu-radio-companion
+
 ---
 
 ## Features
