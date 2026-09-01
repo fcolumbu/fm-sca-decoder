@@ -1,0 +1,7 @@
+# Core DSP & Numerical Processing (Included in radioconda)
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Audio I/O & Playback
+sounddevice>=0.4.4
+soundfile>=0.12.0
