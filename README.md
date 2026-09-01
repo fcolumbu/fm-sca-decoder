@@ -29,3 +29,9 @@ cd fm-sca-decoder
 
 # Install required dependencies
 pip install -r requirements.txt
+
+## NOTE
+FM SCA Subcarrier Decoder  Copyright (C) 2026 Francis M. Columbus
+    This program comes with ABSOLUTELY NO WARRANTY; for details see the LICENSE file.
+    This is free software, and you are welcome to redistribute it
+    under certain conditions.
