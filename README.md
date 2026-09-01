@@ -30,9 +30,28 @@ cd fm-sca-decoder
 # Install required dependencies
 pip install -r requirements.txt
 
+## Prerequisites & Installation
+
+### Using Radioconda (Recommended for macOS / SDR)
+
+If you are using **radioconda** (or an existing Conda environment for Software Defined Radio), all core numerical dependencies (`numpy`, `scipy`) come pre-installed.
+
+```bash
+# Clone the repository
+git clone [https://github.com/your-username/fm-sca-decoder.git](https://github.com/your-username/fm-sca-decoder.git)
+cd fm-sca-decoder
+
+# Activate your radioconda / conda environment
+conda activate radioconda
+
+# Install audio dependencies via conda-forge
+conda install -c conda-forge sounddevice soundfile
+
 ## NOTES
 
 This software was tested on MacOS 26.6.2 with the entire radioconda software installed.
+The computer was a MacBook Air (Apple M5) with the following USB attached SDR: RTL-SDR Blog V4.
+
 Refer to https://github.com/radioconda
 
 FM SCA Subcarrier Decoder  Copyright (C) 2026 Francis M. Columbus
